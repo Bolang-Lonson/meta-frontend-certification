@@ -5,3 +5,8 @@ h1 {
 #header1 {
     color: green;
 }
+
+p {
+    text-transform: uppercase;
+    text-decoration: overline red wavy 5px;
+}
