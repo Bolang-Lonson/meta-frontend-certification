@@ -1,3 +1,5 @@
 .hintrc
 
 *.pdf
+
+node_modules/
