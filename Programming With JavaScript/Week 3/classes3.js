@@ -89,8 +89,8 @@ class Parrot extends Bird{
 var polly = new Parrot(true);   //  polly can talk
 var fiji = new Parrot(false);   //  fiji can't talk
 
-polly.makeSound();  //  'chirp', 'I'm a talking parrot'
-fiji.makeSound();   //  'chirp'
+polly.makeSound(true);  //  'chirp', 'I'm a talking parrot'
+fiji.makeSound(true);   //  'chirp'
 
 polly.color;    //  yellow
 polly.energy;   //  100
